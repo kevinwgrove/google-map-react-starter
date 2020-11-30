@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Google Map API set up
+
+In order to access the API, follow the instructions on this link https://developers.google.com/maps/documentation/embed/get-api-key
+
+Once you have your key, create a file 'key.js' in the src folder
+
+Paste this into that file: export const GOOGLE_TOKEN = 'YOUR_API_TOKEN' <-----(API TOKEN in quotes)

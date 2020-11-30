@@ -1,11 +1,23 @@
 body {
-    margin: 0 0;
-  }
-  
-  .map-container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: stretch;
-  }
+  margin: 0 0;
+}
+
+.map-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+.container-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px;
+  width: 10%;
+  height: 10%;
+  border: solid black 1px;
+  opacity: 0.8;
+  background-color: white;
+}
