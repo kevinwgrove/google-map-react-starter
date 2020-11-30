@@ -1,0 +1,11 @@
+body {
+    margin: 0 0;
+  }
+  
+  .map-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+  }
